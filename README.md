@@ -1,6 +1,6 @@
 # Java 8 stream Interview Questions & Answers
 
-> Click :star:if you like the project. Pull Requests are highly appreciated. Connect me [@Ruptam](https://www.linkedin.com/in/ruptamsadhukhan/) for technical content.
+> Click :star:if you like the project. Pull Requests are highly appreciated. Connect me @Priyanka for technical content.
 
 ### Table of Contents
 
