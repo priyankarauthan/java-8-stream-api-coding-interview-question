@@ -157,7 +157,8 @@
 **[⬆ Back to Top](#table-of-contents)**
 
 16. ### Find Even Numbers
-    ```java List<Integer> list = Arrays.asList(2,5,8,9,12,15);
+    ```java
+    List<Integer> list = Arrays.asList(2,5,8,9,12,15);
     list.stream()
     .filter(n -> n % 2 == 0)
     .forEach(System.out::println);
@@ -166,7 +167,8 @@
 
 17. ### Find Odd Numbers
   
-```java List<Integer> list = Arrays.asList(2,5,8,9,12,15);
+```java
+List<Integer> list = Arrays.asList(2,5,8,9,12,15);
 list.stream()
     .filter(n -> n % 2 != 0)
     .forEach(System.out::println);
@@ -177,6 +179,7 @@ list.stream()
 18. ### Square Every Number
 
 ```java
+  List<Integer> list = Arrays.asList(2,5,8,9,12,15);
 list.stream()
     .map(n -> n * n)
     .forEach(System.out::println);
@@ -198,6 +201,7 @@ list.stream()
 20. ### [Sort Ascending]
     
 ```java
+  List<Integer> list = Arrays.asList(21,51,8,12,15);
 list.stream()
     .sorted()
     .forEach(System.out::println);
@@ -207,6 +211,7 @@ list.stream()
 21. ### [Sort Descending]
 
 ```java
+  List<Integer> list = Arrays.asList(2,8,99,12,51);
 list.stream()
     .sorted(Comparator.reverseOrder())
     .forEach(System.out::println);
