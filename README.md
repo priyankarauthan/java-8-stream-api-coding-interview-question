@@ -21,6 +21,11 @@
 | 13   | [Find the highest salary in each department](#find-the-highest-salary-in-each-department)|
 | 14   | [Find the list of employee and sort them by their salary](#find-the-list-of-employee-and-sort-them-by-their-salary)|
 | 15   | [Find the employee who has second highest salary](#find-the-employee-who-has-second-highest-salary)|
+| 16   | [Find Even Numbers]
+| 17   | [Find Odd Numbers ]
+| 18   | [Square Every Number ]
+| 19   | [Remove Duplicate Elements ]
+| 20   | [Sort Ascending]
 
 1. ### Find list of employees whose name starts with alphabet A
 
@@ -146,6 +151,74 @@
 
    ```java
       Employee emp = empList.stream().sorted(Comparator.comparing(Employee::getSalary)).skip(1).findFirst().get();
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+16. ### [Find Even Numbers]
+    ```java
+    List<Integer> list = Arrays.asList(2,5,8,9,12,15);
+    list.stream()
+    .filter(n -> n % 2 == 0)
+    .forEach(System.out::println);
+    ```
+*[⬆ Back to Top](#table-of-contents)**
+
+17. ### [Find Odd Numbers]
+  ```java
+List<Integer> list = Arrays.asList(2,5,8,9,12,15);
+list.stream()
+    .filter(n -> n % 2 != 0)
+    .forEach(System.out::println);
+```
+*[⬆ Back to Top](#table-of-contents)**
+
+18. ### [Square Every Number]
+
+```java
+list.stream()
+    .map(n -> n * n)
+    .forEach(System.out::println);
+```
+*[⬆ Back to Top](#table-of-contents)**
+
+16. ### [Find Even Numbers]
+
+```java
+List<Integer> list = Arrays.asList(1,2,2,3,4,4,5);
+
+list.stream()
+    .distinct()
+    .forEach(System.out::println);
+```
+
+*[⬆ Back to Top](#table-of-contents)**
+
+16. ### [Remove Duplicate Elements]
+```java
+list.stream()
+    .sorted()
+    .forEach(System.out::println);
+```
+
+*[⬆ Back to Top](#table-of-contents)**
+
+16. ### [Find Even Numbers]
+    
+```java
+list.stream()
+    .sorted(Comparator.reverseOrder())
+    .forEach(System.out::println);
+```
+*[⬆ Back to Top](#table-of-contents)**
+
+16. ### [Sort Ascending]
+```java
+int max = list.stream()
+              .max(Integer::compare)
+              .get();
+
+System.out.println(max);
 ```
 
 **[⬆ Back to Top](#table-of-contents)**
