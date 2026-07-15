@@ -21,12 +21,12 @@
 | 13   | [Find the highest salary in each department](#find-the-highest-salary-in-each-department)|
 | 14   | [Find the list of employee and sort them by their salary](#find-the-list-of-employee-and-sort-them-by-their-salary)|
 | 15   | [Find the employee who has second highest salary](#find-the-employee-who-has-second-highest-salary)|
-| 16   | [Find Even Numbers]
-| 17   | [Find Odd Numbers ]
-| 18   | [Square Every Number ]
-| 19   | [Remove Duplicate Elements ]
-| 20   | [Sort Ascending]
-| 21   | [Sort Descending]
+| 16   | [Find Even Numbers](#find-even-numbers)|
+| 17   | [Find Odd Numbers ](#find-odd-numbers)|
+| 18   | [Square Every Number ](#square-every-number)|
+| 19   | [Remove Duplicate Elements ](#remove-duplicate-elements)|
+| 20   | [Sort Ascending](#sort-ascending)|
+| 21   | [Sort Descending](#sort-descending)|
 
 1. ### Find list of employees whose name starts with alphabet A
 
