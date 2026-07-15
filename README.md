@@ -155,23 +155,23 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-16. ### [Find Even Numbers]
-    ```java
-    List<Integer> list = Arrays.asList(2,5,8,9,12,15);
+16. ### Find Even Numbers
+    ```java List<Integer> list = Arrays.asList(2,5,8,9,12,15);
     list.stream()
     .filter(n -> n % 2 == 0)
     .forEach(System.out::println);
     ```
-*[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#table-of-contents)**
 
-17. ### [Find Odd Numbers]
-  ```java
-List<Integer> list = Arrays.asList(2,5,8,9,12,15);
+17. ### Find Odd Numbers
+  
+```java List<Integer> list = Arrays.asList(2,5,8,9,12,15);
 list.stream()
     .filter(n -> n % 2 != 0)
     .forEach(System.out::println);
 ```
-*[⬆ Back to Top](#table-of-contents)**
+
+**[⬆ Back to Top](#table-of-contents)**
 
 18. ### [Square Every Number]
 
@@ -180,7 +180,7 @@ list.stream()
     .map(n -> n * n)
     .forEach(System.out::println);
 ```
-*[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#table-of-contents)**
 
 16. ### [Find Even Numbers]
 
@@ -192,7 +192,7 @@ list.stream()
     .forEach(System.out::println);
 ```
 
-*[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#table-of-contents)**
 
 16. ### [Remove Duplicate Elements]
 ```java
@@ -201,7 +201,7 @@ list.stream()
     .forEach(System.out::println);
 ```
 
-*[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#table-of-contents)**
 
 16. ### [Find Even Numbers]
     
@@ -210,7 +210,7 @@ list.stream()
     .sorted(Comparator.reverseOrder())
     .forEach(System.out::println);
 ```
-*[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#table-of-contents)**
 
 16. ### [Sort Ascending]
 ```java
