@@ -26,6 +26,7 @@
 | 18   | [Square Every Number ]
 | 19   | [Remove Duplicate Elements ]
 | 20   | [Sort Ascending]
+| 21   | [Sort Descending]
 
 1. ### Find list of employees whose name starts with alphabet A
 
@@ -173,7 +174,7 @@ list.stream()
 
 **[⬆ Back to Top](#table-of-contents)**
 
-18. ### [Square Every Number]
+18. ### Square Every Number
 
 ```java
 list.stream()
@@ -182,7 +183,7 @@ list.stream()
 ```
 **[⬆ Back to Top](#table-of-contents)**
 
-16. ### [Find Even Numbers]
+19. ### Remove Duplicate Elements
 
 ```java
 List<Integer> list = Arrays.asList(1,2,2,3,4,4,5);
@@ -194,31 +195,21 @@ list.stream()
 
 **[⬆ Back to Top](#table-of-contents)**
 
-16. ### [Remove Duplicate Elements]
+20. ### [Sort Ascending]
+    
 ```java
 list.stream()
     .sorted()
     .forEach(System.out::println);
 ```
-
 **[⬆ Back to Top](#table-of-contents)**
 
-16. ### [Find Even Numbers]
-    
+21. ### [Sort Descending]
+
 ```java
 list.stream()
     .sorted(Comparator.reverseOrder())
     .forEach(System.out::println);
-```
-**[⬆ Back to Top](#table-of-contents)**
-
-16. ### [Sort Ascending]
-```java
-int max = list.stream()
-              .max(Integer::compare)
-              .get();
-
-System.out.println(max);
 ```
 
 **[⬆ Back to Top](#table-of-contents)**
